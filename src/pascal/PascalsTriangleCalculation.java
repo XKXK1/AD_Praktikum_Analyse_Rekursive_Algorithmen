@@ -2,8 +2,12 @@ package pascal;
 
 public interface PascalsTriangleCalculation {
 	
-	void getLinePascals(int N);
+	long[] getLinePascals(int zeile);
 
 	void outpoutOfLine();
+	
+	long getCounter();
+	
+	void setCounter(long counter);
 
 }
