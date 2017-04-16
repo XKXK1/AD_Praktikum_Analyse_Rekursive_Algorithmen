@@ -6,7 +6,7 @@ public class ComplexityAnalysis {
 public static void main(String[] args) {		
 		
 		PascalsTriangleCalculation pascal;
-		for(int zeile = 1; zeile < 99; zeile += 1)
+		for(int zeile = 1; zeile < 22; zeile += 1)
 		{
 			System.out.println("\n ######## ZEILE : "+zeile+" #######");
 			
