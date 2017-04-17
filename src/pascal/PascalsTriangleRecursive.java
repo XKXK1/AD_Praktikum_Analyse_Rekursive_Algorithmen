@@ -7,10 +7,10 @@ public class PascalsTriangleRecursive implements PascalsTriangleCalculation{
 	public long[] getLinePascals(int zeile) {
 		long[] pascal = new long[zeile];
 
-		for (int reihe = 0; reihe < zeile; reihe++)
+		for (int i = 0; i < zeile; i++)
 		{
 			counter++;
-			pascal[reihe] = pascal_recursive(zeile - 1, reihe);
+			pascal[i] = pascal_recursive(zeile - 1, i);
 		}
 		return pascal;		
 	}
