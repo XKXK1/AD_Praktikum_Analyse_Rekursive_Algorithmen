@@ -6,11 +6,9 @@ public class ComplexityAnalysis {
 public static void main(String[] args) {		
 		
 		PascalsTriangleCalculation pascal;
-<<<<<<< HEAD
+
 		for(int zeile = 1; zeile < 20; zeile += 1)
-=======
-		for(int zeile = 1; zeile < 22; zeile += 1)
->>>>>>> bbe1c104bef4f51510a03f09107043c5341c060a
+
 		{
 			System.out.println("\n ######## ZEILE : "+zeile+" #######");
 			
@@ -34,7 +32,7 @@ public static void main(String[] args) {
 	{	
 		long[] result = pascal.getLinePascals(zeile);
 		
-		//printArray(result);
+		printArray(result);
 		
 		System.out.println(" : " + pascal.getCounter());
 		pascal.setCounter(0);
